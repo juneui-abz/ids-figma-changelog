@@ -7,135 +7,231 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 0.17.0 - 2026-05-26
 
-### 수정
-- variable=neutral, state=disabled, size=s
-- variable=critical, state=enabled, size=m
-- variable=neutral weak, state=hover, size=l
-- variable=neutral ghost, state=pressed, size=s
-- variable=neutral weak, state=enabled, size=m
+### 추가
 - state=enabled
-- variable=neutral ghost, state=enabled, size=m
-- state=read-only
-- variable=neutral weak, state=enabled, size=l
-- check=on, state=disabled
-- variable=neutral, state=pressed, size=s
-- variable=neutral outline, state=disabled, size=l
-- variable=neutral outline, state=pressed, size=m
-- variable=brand, state=hover, size=xs
-- variable=neutral, state=disabled, size=xs
-- variable=neutral weak, state=enabled, size=xs
-- variable=neutral, state=hover, size=xs
-- variable=neutral outline, state=hover, size=m
-- state=disabled
-- variable=neutral outline, state=disabled, size=s
-- variable=neutral outline, state=pressed, size=l
-- variable=brand, state=hover, size=l
-- variable=neutral ghost, state=disabled, size=xs
-- variable=neutral weak, state=pressed, size=xs
-- variable=neutral weak, state=disabled, size=xs
 - state=hover
-- variable=neutral outline, state=enabled, size=m
-- variable=critical, state=pressed, size=m
-- variable=brand, state=pressed, size=xs
-- variable=neutral, state=enabled, size=l
-- variable=brand, state=hover, size=s
-- variable=neutral outline, state=enabled, size=xs
-- variable=critical, state=hover, size=s
-- variable=neutral ghost, state=hover, size=xs
-- variable=neutral ghost, state=enabled, size=xs
-- check=off, state=disabled
-- variable=neutral outline, state=pressed, size=xs
-- variable=neutral outline, state=enabled, size=s
-- variable=neutral, state=hover, size=m
-- check=off, state=enabled
-- variable=neutral weak, state=hover, size=s
-- variable=critical, state=enabled, size=l
-- variable=brand, state=enabled, size=s
-- variable=neutral, state=enabled, size=m
-- variable=critical, state=pressed, size=l
-- check=on, state=enabled
-- variable=brand, state=disabled, size=xs
-- variable=critical, state=hover, size=l
-- variable=neutral, state=enabled, size=s
-- variable=neutral outline, state=disabled, size=xs
-- variable=neutral weak, state=disabled, size=l
-- state=filled
-- variable=neutral ghost, state=hover, size=s
-- variable=brand, state=hover, size=m
-- variable=neutral ghost, state=enabled, size=l
-- variable=brand, state=pressed, size=s
-- variable=neutral ghost, state=enabled, size=s
-- variable=critical, state=hover, size=m
-- variable=critical, state=disabled, size=l
-- variable=brand, state=pressed, size=m
 - state=focus
-- variable=neutral weak, state=hover, size=m
-- variable=neutral ghost, state=disabled, size=m
-- variable=brand, state=disabled, size=s
-- variable=brand, state=enabled, size=l
-- variable=brand, state=enabled, size=m
-- variable=neutral, state=pressed, size=l
-- variable=neutral, state=disabled, size=l
-- variable=neutral ghost, state=hover, size=m
-- variable=critical, state=enabled, size=xs
-- variable=neutral ghost, state=pressed, size=l
-- variable=neutral weak, state=hover, size=xs
+- state=filled
+- state=disabled
+- state=read-only
 - state=error
-- variable=neutral outline, state=hover, size=s
-- variable=neutral outline, state=enabled, size=l
-- variable=critical, state=disabled, size=m
-- variable=neutral, state=hover, size=l
-- variable=neutral ghost, state=pressed, size=xs
-- variable=brand, state=disabled, size=l
-- variable=neutral outline, state=hover, size=l
-- variable=neutral outline, state=hover, size=xs
-- variable=critical, state=pressed, size=xs
-- variable=critical, state=disabled, size=s
-- variable=neutral ghost, state=disabled, size=s
-- variable=critical, state=disabled, size=xs
-- variable=neutral weak, state=pressed, size=l
-- variable=neutral ghost, state=hover, size=l
-- variable=neutral, state=disabled, size=m
-- variable=neutral outline, state=disabled, size=m
-- variable=neutral weak, state=pressed, size=s
-- variable=neutral ghost, state=disabled, size=l
-- variable=neutral, state=pressed, size=m
-- variable=neutral, state=hover, size=s
-- variable=neutral weak, state=enabled, size=s
-- variable=brand, state=disabled, size=m
-- variable=critical, state=enabled, size=s
-- variable=neutral weak, state=disabled, size=s
-- direction=vertical
-- variable=neutral, state=enabled, size=xs
-- direction=horizontal
-- variable=neutral ghost, state=pressed, size=m
-- variable=brand, state=pressed, size=l
-- variable=neutral outline, state=pressed, size=s
-- variable=critical, state=hover, size=xs
-- variable=neutral, state=pressed, size=xs
-- variable=neutral weak, state=disabled, size=m
-- variable=neutral weak, state=pressed, size=m
-- variable=critical, state=pressed, size=s
-- variable=brand, state=enabled, size=xs
+
+### 수정
+- type=overlay, state=pressed, size=l, style=circle
+- state=disabled, status=unchecked
+- size=m
+- type=neutral weak, state=pressed, size=l, style=rounded
+- type=neutral ghost, state=pressed, size=s, style=circle
+- type=neutral weak, state=hover, size=s, style=circle
+- type=overlay, state=disabled, size=xs, style=circle
+- type=overlay, state=enabled, size=m, style=rounded
+- type=neutral outline, state=hover, size=s, style=rounded
+- type=neutral ghost, state=hover, size=s, style=rounded
+- state=enabled, status=intermidiate
+- type=overlay, state=disabled, size=m, style=rounded
+- type=brand, state=pressed, size=s, style=circle
+- type=overlay, state=hover, size=l, style=circle
+- type=brand, state=hover, size=xs, style=rounded
+- state=activated, size=m
+- type=neutral ghost, state=enabled, size=l, style=circle
+- type=overlay, state=disabled, size=m, style=circle
+- type=neutral outline, state=pressed, size=m, style=circle
+- type=brand, state=hover, size=m, style=rounded
+- state=default, size=m
+- type=brand, state=disabled, size=s, style=circle
+- type=neutral weak, state=disabled, size=xs, style=rounded
+- type=overlay, state=disabled, size=l, style=circle
+- type=brand, state=pressed, size=l, style=rounded
+- type=neutral ghost, state=hover, size=l, style=circle
+- type=brand, state=pressed, size=m, style=rounded
+- type=brand, state=pressed, size=xs, style=rounded
+- type=overlay, state=enabled, size=s, style=rounded
+- type=overlay, state=enabled, size=l, style=rounded
+- state=disabled, status=checked
+- type=brand, state=hover, size=xs, style=circle
+- type=neutral ghost, state=pressed, size=m, style=circle
+- type=neutral ghost, state=disabled, size=l, style=circle
+- type=neutral weak, state=pressed, size=xs, style=rounded
+- type=brand, state=enabled, size=m, style=circle
+- type=overlay, state=disabled, size=l, style=rounded
+- type=brand, state=pressed, size=xs, style=circle
+- type=neutral weak, state=enabled, size=s, style=rounded
+- type=neutral weak, state=pressed, size=m, style=rounded
+- type=neutral weak, state=hover, size=m, style=circle
+- state=enabled, status=unchecked
+- type=overlay, state=pressed, size=s, style=rounded
+- type=neutral weak, state=disabled, size=l, style=circle
+- type=overlay, state=pressed, size=m, style=rounded
+- type=brand, state=disabled, size=l, style=circle
+- type=neutral ghost, state=pressed, size=l, style=circle
+- type=neutral weak, state=disabled, size=m, style=circle
+- type=neutral weak, state=hover, size=xs, style=rounded
+- type=neutral ghost, state=pressed, size=s, style=rounded
+- state=enabled, status=checked
+- type=neutral weak, state=disabled, size=l, style=rounded
+- type=neutral outline, state=hover, size=l, style=rounded
+- type=neutral weak, state=hover, size=l, style=rounded
+- type=neutral ghost, state=disabled, size=xs, style=circle
+- type=neutral weak, state=disabled, size=s, style=circle
+- type=neutral weak, state=enabled, size=l, style=circle
+- type=neutral ghost, state=disabled, size=s, style=rounded
+- type=neutral outline, state=enabled, size=s, style=rounded
+- type=neutral weak, state=pressed, size=m, style=circle
+- type=brand, state=disabled, size=m, style=rounded
+- state=enabled, size=l
+- type=neutral ghost, state=pressed, size=m, style=rounded
+- Type=Main
+- type=neutral outline, state=disabled, size=l, style=rounded
+- type=neutral weak, state=pressed, size=s, style=circle
+- type=overlay, state=hover, size=m, style=circle
+- type=neutral outline, state=enabled, size=xs, style=circle
+- type=overlay, state=hover, size=s, style=rounded
+- type=overlay, state=pressed, size=l, style=rounded
+- type=neutral outline, state=disabled, size=xs, style=rounded
+- type=neutral weak, state=hover, size=s, style=rounded
+- type=neutral outline, state=hover, size=m, style=circle
+- type=neutral weak, state=disabled, size=m, style=rounded
+- type=neutral weak, state=enabled, size=xs, style=circle
+- type=brand, state=pressed, size=l, style=circle
+- type=neutral outline, state=pressed, size=l, style=circle
+- type=neutral outline, state=enabled, size=xs, style=rounded
+- type=neutral outline, state=pressed, size=s, style=rounded
+- type=neutral outline, state=disabled, size=l, style=circle
+- type=brand, state=disabled, size=xs, style=rounded
+- type=brand, state=pressed, size=m, style=circle
+- type=brand, state=disabled, size=xs, style=circle
+- type=brand, state=pressed, size=s, style=rounded
+- type=brand, state=disabled, size=s, style=rounded
+- type=neutral outline, state=pressed, size=l, style=rounded
+- type=neutral ghost, state=disabled, size=xs, style=rounded
+- state=enabled, size=m
+- type=overlay, state=disabled, size=xs, style=rounded
+- state=enable
+- type=neutral weak, state=disabled, size=s, style=rounded
+- type=neutral weak, state=disabled, size=xs, style=circle
+- type=overlay, state=enabled, size=xs, style=circle
+- type=neutral ghost, state=hover, size=xs, style=circle
+- type=neutral outline, state=enabled, size=l, style=circle
+- type=brand, state=enabled, size=l, style=rounded
+- type=overlay, state=enabled, size=s, style=circle
+- type=brand, state=enabled, size=xs, style=rounded
+- type=brand, state=hover, size=l, style=rounded
+- type=neutral ghost, state=enabled, size=s, style=rounded
+- type=neutral ghost, state=hover, size=s, style=circle
+- type=neutral outline, state=hover, size=xs, style=circle
+- type=brand, state=enabled, size=s, style=rounded
+- type=neutral outline, state=enabled, size=l, style=rounded
+- state=activate
+- type=neutral weak, state=enabled, size=s, style=circle
+- Type=Close
+- type=overlay, state=hover, size=xs, style=rounded
+- type=overlay, state=pressed, size=s, style=circle
+- state=activated, size=l
+- type=neutral weak, state=enabled, size=l, style=rounded
+- type=neutral outline, state=disabled, size=s, style=circle
+- type=neutral ghost, state=enabled, size=m, style=circle
+- type=neutral outline, state=pressed, size=xs, style=rounded
+- type=brand, state=disabled, size=l, style=rounded
+- type=neutral ghost, state=enabled, size=l, style=rounded
+- type=neutral weak, state=enabled, size=m, style=rounded
+- type=overlay, state=hover, size=s, style=circle
+- type=neutral weak, state=enabled, size=m, style=circle
+- type=neutral weak, state=enabled, size=xs, style=rounded
+- state=disabled, status=intermidiate
+- type=neutral outline, state=hover, size=m, style=rounded
+- type=overlay, state=hover, size=xs, style=circle
+- type=neutral ghost, state=enabled, size=xs, style=rounded
+- type=brand, state=hover, size=s, style=rounded
+- type=neutral outline, state=disabled, size=xs, style=circle
+- type=neutral ghost, state=enabled, size=s, style=circle
+- type=neutral ghost, state=hover, size=l, style=rounded
+- type=overlay, state=enabled, size=xs, style=rounded
+- type=brand, state=enabled, size=s, style=circle
+- type=neutral outline, state=hover, size=l, style=circle
+- type=neutral ghost, state=enabled, size=m, style=rounded
+- state=hover, size=m
+- type=neutral ghost, state=disabled, size=s, style=circle
+- type=overlay, state=pressed, size=m, style=circle
+- size=s
+- type=neutral outline, state=enabled, size=m, style=circle
+- type=neutral outline, state=disabled, size=m, style=rounded
+- type=overlay, state=enabled, size=l, style=circle
+- type=neutral weak, state=hover, size=m, style=rounded
+- type=overlay, state=hover, size=m, style=rounded
+- type=neutral weak, state=hover, size=l, style=circle
+- type=overlay, state=enabled, size=m, style=circle
+- state=hover, size=s
+- type=neutral outline, state=pressed, size=m, style=rounded
+- type=brand, state=hover, size=l, style=circle
+- type=neutral ghost, state=pressed, size=xs, style=circle
+- type=neutral outline, state=enabled, size=s, style=circle
+- type=brand, state=hover, size=s, style=circle
+- type=neutral outline, state=hover, size=s, style=circle
+- type=brand, state=disabled, size=m, style=circle
+- type=neutral outline, state=pressed, size=s, style=circle
+- type=overlay, state=disabled, size=s, style=circle
+- type=neutral ghost, state=disabled, size=m, style=circle
+- type=neutral outline, state=pressed, size=xs, style=circle
+- type=overlay, state=pressed, size=xs, style=circle
+- type=neutral outline, state=disabled, size=m, style=circle
+- state=default, size=s
+- type=neutral ghost, state=enabled, size=xs, style=circle
+- type=neutral ghost, state=pressed, size=xs, style=rounded
+- type=neutral weak, state=pressed, size=s, style=rounded
+- type=neutral weak, state=pressed, size=l, style=circle
+- type=neutral outline, state=hover, size=xs, style=rounded
+- type=neutral ghost, state=pressed, size=l, style=rounded
+- type=neutral ghost, state=disabled, size=m, style=rounded
+- type=neutral ghost, state=disabled, size=l, style=rounded
+- type=neutral weak, state=pressed, size=xs, style=circle
+- type=neutral ghost, state=hover, size=m, style=rounded
+- type=brand, state=enabled, size=l, style=circle
+- type=brand, state=enabled, size=m, style=rounded
+- type=neutral ghost, state=hover, size=xs, style=rounded
+- type=brand, state=enabled, size=xs, style=circle
+- type=neutral outline, state=disabled, size=s, style=rounded
+- type=neutral outline, state=enabled, size=m, style=rounded
+- type=neutral weak, state=hover, size=xs, style=circle
+- type=brand, state=hover, size=m, style=circle
+- Type=Sub
+- type=overlay, state=hover, size=l, style=rounded
+- type=overlay, state=disabled, size=s, style=rounded
+- type=overlay, state=pressed, size=xs, style=rounded
+- type=neutral ghost, state=hover, size=m, style=circle
 
 ### 삭제
-- label=text, type=outline, state=hover, size=s
-- label=text, type=outline, state=default, size=m
-- label=text, type=outline, state=default, size=s
-- label=text, type=outline, state=default, size=xs
-- label=text, type=outline, state=hover, size=m
-- label=text, type=outline, state=disabled, size=l
-- label=text, type=outline, state=disabled, size=s
-- label=text, type=outline, state=focus, size=xs
-- label=text, type=outline, state=focus, size=s
-- label=text, type=outline, state=focus, size=m
-- label=text, type=outline, state=disabled, size=m
-- label=text, type=outline, state=hover, size=xs
-- label=text, type=outline, state=disabled, size=xs
-- label=text, type=outline, state=hover, size=l
-- label=text, type=outline, state=focus, size=l
-- label=text, type=outline, state=default, size=l
-- direction=horizontal, type=thick
+- type=neutral, state=hover, size=l, style=rounded
+- type=neutral, state=enabled, size=s, style=circle
+- type=neutral, state=pressed, size=xs, style=rounded
+- type=neutral, state=pressed, size=xs, style=circle
+- type=neutral, state=disabled, size=s, style=rounded
+- type=neutral, state=pressed, size=l, style=circle
+- type=neutral, state=pressed, size=m, style=rounded
+- type=neutral, state=disabled, size=xs, style=circle
+- type=neutral, state=enabled, size=m, style=circle
+- type=neutral, state=enabled, size=m, style=rounded
+- type=neutral, state=disabled, size=l, style=rounded
+- type=neutral, state=hover, size=xs, style=rounded
+- type=neutral, state=disabled, size=m, style=circle
+- type=neutral, state=enabled, size=xs, style=circle
+- type=neutral, state=hover, size=xs, style=circle
+- type=neutral, state=enabled, size=l, style=circle
+- type=neutral, state=disabled, size=m, style=rounded
+- type=neutral, state=hover, size=m, style=circle
+- type=neutral, state=enabled, size=l, style=rounded
+- type=neutral, state=pressed, size=m, style=circle
+- type=neutral, state=disabled, size=s, style=circle
+- type=neutral, state=hover, size=s, style=circle
+- type=neutral, state=pressed, size=l, style=rounded
+- type=neutral, state=hover, size=s, style=rounded
+- type=neutral, state=enabled, size=s, style=rounded
+- type=neutral, state=enabled, size=xs, style=rounded
+- type=neutral, state=disabled, size=xs, style=rounded
+- type=neutral, state=hover, size=l, style=circle
+- type=neutral, state=pressed, size=s, style=circle
+- type=neutral, state=hover, size=m, style=rounded
+- type=neutral, state=pressed, size=s, style=rounded
+- type=neutral, state=disabled, size=l, style=circle
 
 ## 0.16.0 - 2026-02-26
 
